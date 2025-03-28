@@ -1,0 +1,138 @@
+/* 
+.container{
+  height: 100px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNDmhNjgHNWc1cbNRcS_r5pVHW89nAVmbx8Q&usqp=CAU");
+  background-position: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+} */
+/* About.css */
+
+/* Style for the list-group */
+#list-example {
+  position: fixed;
+  width: 250px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+  border-radius: 5px;
+}
+
+
+/* Styles for list items */
+.list-group-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #ccc; /* Add border between items */
+}
+
+.list-group-item:first-child {
+  border-top: 1px solid #ccc; /* Add top border for the first item */
+}
+
+.list-group-item:hover {
+  background-color: #e3e3e3;
+}
+
+.list-group-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Customizing anchor styles */
+.list-group-item a {
+  color: inherit; /* Inherit text color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.list-group-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the h4 with id "About" */
+#About {
+  background-color: lightblue;
+  padding: 10px;
+  color: white;
+  /* Add any other styles you want for the h4 with id "About" */
+}
+
+/* Style for the h4 with id "Blog" */
+#Blog {
+  background-color: lightblue;
+  padding: 10px;
+  color: white;
+  /* Add any other styles you want for the h4 with id "Blog" */
+}
+
+/* Style for the h4 with id "FQAs" */
+#FQAs {
+  background-color: lightblue;
+  padding: 10px;
+  color: white;
+  /* Add any other styles you want for the h4 with id "FQAs" */
+}
+
+
+
+/* Add any additional styles for other elements as needed */
+/* Additional styles for the content inside the card */
+.content h4 {
+  font-size: 18px; /* Adjust heading font size */
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+.content p {
+  font-size: 16px; /* Adjust paragraph font size */
+  line-height: 1.5; /* Adjust line height */
+  margin-bottom: 15px; /* Add bottom margin */
+}
+
+/* Additional styles for the contact section */
+.contact {
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Add background color */
+  border-radius: 0 0 10px 10px; /* Add border radius to bottom */
+}
+
+.contact h5 {
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+.contact p {
+  margin-bottom: 5px; /* Add bottom margin */
+}
+
+/* Additional styles for the image */
+.image {
+  position: relative; /* Position relative for absolute positioning */
+  overflow: hidden; /* Hide overflow */
+  border-radius: 10px 10px 0 0; /* Add border radius to top */
+}
+
+.image img {
+  width: 100%; /* Set image width to 100% */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Position absolute */
+  top: 0; /* Position from top */
+  left: 0; /* Position from left */
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.image:hover img {
+  transform: scale(1.1); /* Scale image on hover */
+}
+
+
+
+
+

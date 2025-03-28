@@ -1,0 +1,41 @@
+/* RoomDetail Component CSS */
+.room-detail {
+    padding: 20px; /* Add some padding around the component */
+    border: 1px solid #ddd; /* Light border for better separation */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Add a light shadow for depth */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 20px auto; /* Center the component with top and bottom margin */
+  }
+  
+  .room-detail img {
+    width: 100%; /* Make the image take full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+  }
+  
+  .room-detail h2 {
+    font-size: 24px; /* Set a larger font size for the room name */
+    font-weight: bold; /* Make the room name bold */
+    margin: 10px 0; /* Add space between the title and other elements */
+  }
+  
+  .room-detail h3 {
+    font-size: 20px; /* Set a moderate font size for the price */
+    color: #28a745; /* Use a green color to highlight the price */
+    margin-bottom: 10px; /* Add a small margin below */
+  }
+  
+  .room-detail p {
+    font-size: 16px; /* Regular font size for the description */
+    line-height: 1.5; /* Increase line spacing for readability */
+  }
+  
+  .room-detail h5 {
+    font-size: 14px; /* Smaller font size for additional details */
+    color: #555; /* Dark gray color for less emphasis */
+    margin-top: 10px; /* Add space before this element */
+  }
+  
+  /* You can add additional styles for specific sections if needed */
+  

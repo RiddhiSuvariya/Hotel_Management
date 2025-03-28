@@ -1,0 +1,48 @@
+/* Additional CSS for h3 */
+h3 {
+    color: white;
+    margin-top: 15px;
+    border-width: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-right: 300px;
+    color: lightyellow;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Additional CSS for footer */
+.footer {
+    background: linear-gradient(135deg, #4a90e2, #66d1c3);
+    padding: 5px 0; /* Reduced padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+/* Additional styles for list items */
+li {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Additional styles for links */
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Additional styles for paragraphs */
+p {
+    margin-top: 50px;
+}

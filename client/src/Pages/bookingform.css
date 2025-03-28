@@ -1,0 +1,73 @@
+/* BookingForm.css */
+
+.booking-form-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .booking-form-container form {
+    display: grid;
+    grid-gap: 15px;
+  }
+  
+  .booking-form-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .booking-form-container form label {
+    font-weight: bold;
+  }
+  
+  .booking-form-container form input[type="text"],
+  .booking-form-container form input[type="email"],
+  .booking-form-container form input[type="date"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .booking-form-container form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form-container form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-form-container form button:focus {
+    outline: none;
+  }
+  
+  .booking-form-container form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .booking-form-container form button:disabled:hover {
+    background-color: #ccc;
+  }
+  
+  .booking-form-container form button:focus-visible {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007bff;
+  }
+  
+  

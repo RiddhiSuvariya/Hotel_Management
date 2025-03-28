@@ -1,0 +1,76 @@
+/* 
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      max-width: 90%;
+    }
+  
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      font-size: 14px;
+    }
+  } */
+  .contact-container {
+    max-width: 600px; /* Set maximum width */
+    margin: 20vh auto; /* Add space above and below, and center horizontally */
+    padding: 20px; /* Add padding */
+    background: linear-gradient(to bottom, lightblue, cyan); /* Gradient background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 10px; /* Rounded corners *//* Background color */
+  }
+  
+  
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.form-group {
+  display: grid;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3293c0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: gray;
+}
+ 

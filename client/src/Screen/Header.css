@@ -1,0 +1,125 @@
+/* Header Container */
+.header {
+    background: linear-gradient(135deg, #4a90e2, #66d1c3);
+    padding: 5px 0; /* Reduced padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Reduced height */
+    width: auto;
+    align-items: center;
+    margin-right: 10px; /* Adjusted margin */
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.5);
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-toggler-icon {
+    color: lightyellow;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    color: yellow;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.nav-link {
+    color: lightyellow;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+/* 
+.nav-link:hover {
+    color: black;
+    transform: scale(1.5);
+} */
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px 0;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-toggler:hover + .navbar-collapse,
+    .navbar-collapse:hover {
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+}
+
+/* Sticky Header */
+.sticky {
+    /* position: fixed; */
+    top: 0;
+    animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

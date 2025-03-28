@@ -1,0 +1,67 @@
+/* Background Gradient */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 20px;
+  width: 30%;
+  margin: 20vh auto; /* Add space above and below */
+  background: linear-gradient(to bottom, lightblue, cyan); /* Gradient background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+
+/* Input Styles */
+.login-container input {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 300px;
+  font-size: 16px;
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #555; /* Input text color */
+  font-family: Arial, sans-serif; /* Set font family */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.login-container input::placeholder {
+  color: #999; /* Placeholder text color */
+}
+
+.login-container input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Button Styles */
+.login-container button {
+  margin-top: 20px;
+  padding: 15px 30px; /* Increased padding for button */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Set font family */
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: orange; /* Darker shade of button color on hover */
+}
+
+/* Link Styles */
+.login-container a {
+  color: purple;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
