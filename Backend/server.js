@@ -1,29 +1,5 @@
 const express = require("express");
 const app =express();
-//  const dbConfig = require('./db');
-// const roomsRoute= require('./routes/roomsRoute');
-
-// app.use('api/Rooms',roomsRoute)
-
-// const PORT =process.env.PORT || 5000;
-// app.listen(3090,()=>{
-//     console.log('Server stared using node moon!!!');
-// })
-
-
-//-----------------------------------
-
-
-// const express =require("express");
-// const app = express();
-// // const dbConfig = require('./db')
-// // const roomsRoute = require('./routes/roomsRoute')
-
-// // app.use('/api/Rooms',roomsRoute)
-// // const PORT =process.env.PORT || 3090;
-// app.listen(3090,()=>{
-//     console.log('Server stared using node moon!!!');
-// })
 
 
 const bodyParser = require('body-parser');
